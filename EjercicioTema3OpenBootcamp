@@ -1,0 +1,68 @@
+class Main {
+
+public static void main(String[] args) 
+    //Declaración de variables
+    int num1 = 25; num2 =754; num3 = 564;
+    //Mostrar el contenido de las variables
+    System.out.println("Numero 1 =" + num1);
+    System.out.println("Numero 2 =" + num2);
+    System.out.println("Numero 3 =" + num3);
+    //Se hace la suma
+    suma = num1 + num2 + num3;
+    System.out.println("Resultado = " + suma);
+    
+    
+
+}
+
+
+class Coche {
+
+    import java . io . *;
+
+    public class Main{
+    
+    public static void main(String args[]) throws IOException {
+    
+     BufferedReader bufEntrada = new BufferedReader(new InputStreamReader(System . in));
+    
+     String r;
+    
+      int incremPuer;
+    
+     incremPuer = 0;
+    
+    Coche miCoche = new Coche(incremPuer);
+    
+     do {
+    
+      do {
+    
+       System.out.print("agregar puerta al coche? (s/n): ");
+    
+       r = bufEntrada.readLine();
+    
+       r = r.toLowerCase();
+    
+      } while (!(r.equals("s") || r.equals("n")));
+    
+      if (r.equals("s")) {
+
+        incremPuer=miCoche.puertas(incremPuer);
+        Coche (int p) {
+
+            puertas=p;
+
+            int puertas(int incremPuer){
+
+                return incremPuer+1;
+                
+                   }
+                
+                   }
+            
+            }
+            
+            
+}
+}
